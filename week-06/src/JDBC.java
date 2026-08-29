@@ -7,7 +7,7 @@ public class JDBC {
         String dbName = "demo";
         String url = "jdbc:postgresql://localhost:5432/" + dbName;
         String user = "postgres";
-        String password = System.getenv("DB_PASSWORD");
+        String password = "7532";
         int sid = 1;
         String sname = "Samir";
         int smark = 30;
