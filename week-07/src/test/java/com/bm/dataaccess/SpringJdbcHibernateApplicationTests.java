@@ -1,10 +1,10 @@
-package com.bm.jpa_hibernate;
+package com.bm.dataaccess;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JpaHibernateApplicationTests {
+class SpringJdbcHibernateApplicationTests {
 
 	@Test
 	void contextLoads() {

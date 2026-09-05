@@ -1,4 +1,4 @@
-package com.bm.jpa_hibernate;
+package com.bm.dataaccess.course;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

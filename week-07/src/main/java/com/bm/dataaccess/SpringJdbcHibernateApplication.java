@@ -1,13 +1,13 @@
-package com.bm.jpa_hibernate;
+package com.bm.dataaccess;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpaHibernateApplication {
+public class SpringJdbcHibernateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JpaHibernateApplication.class, args);
+		SpringApplication.run(SpringJdbcHibernateApplication.class, args);
     }
 
 }

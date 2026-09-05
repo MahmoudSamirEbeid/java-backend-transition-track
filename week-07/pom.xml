@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bm</groupId>
-	<artifactId>jpa-hibernate</artifactId>
+	<artifactId>spring-jdbc-hibernate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>Week 7 - Spring JDBC and Hibernate</name>
+	<description>Database access examples using JPA, Hibernate, Spring Data JPA, and Spring JDBC</description>
 	<url/>
 	<licenses>
 		<license/>

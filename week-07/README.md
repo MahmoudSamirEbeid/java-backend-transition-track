@@ -1,4 +1,4 @@
-# Week 7 - Hibernate/JPA and Spring JDBC
+# Week 7 - Spring JDBC and Hibernate/JPA
 
 This project demonstrates two database access approaches with Spring Boot and an in-memory H2 database.
 

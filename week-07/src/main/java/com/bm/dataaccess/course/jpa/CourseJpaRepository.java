@@ -1,6 +1,6 @@
-package com.bm.jpa_hibernate.course.jpa;
+package com.bm.dataaccess.course.jpa;
 
-import com.bm.jpa_hibernate.Course;
+import com.bm.dataaccess.course.Course;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

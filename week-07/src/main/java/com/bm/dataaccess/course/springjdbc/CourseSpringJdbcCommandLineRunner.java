@@ -1,6 +1,6 @@
-package com.bm.jpa_hibernate.course.springjdbc;
+package com.bm.dataaccess.course.springjdbc;
 
-import com.bm.jpa_hibernate.Course;
+import com.bm.dataaccess.course.Course;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
