@@ -1,4 +1,4 @@
-package com.in28minutes.jpa_hibernate;
+package com.bm.jpa_hibernate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

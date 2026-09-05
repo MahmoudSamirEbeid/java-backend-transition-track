@@ -12,9 +12,9 @@ This project demonstrates two database access approaches with Spring Boot and an
 
 ## Spring JDBC
 
-- `CourseJdbcRepository` uses `JdbcTemplate` and a custom `RowMapper<Course>`.
+- `CourseSpringJdbcRepository` uses `JdbcTemplate` and a custom `RowMapper<Course>`.
 - It demonstrates insert, delete, find-by-id, and find-all SQL operations.
-- `CourseJdbcCommandLineRunner` executes the JDBC operations with IDs `101` to `103`, separate from the JPA sample data.
+- `CourseSpringJdbcCommandLineRunner` executes the JDBC operations with IDs `101` to `103`, separate from the JPA sample data.
 
 ## Run
 

@@ -1,6 +1,6 @@
-package com.in28minutes.jpa_hibernate.course.jpa;
+package com.bm.jpa_hibernate.course.jpa;
 
-import com.in28minutes.jpa_hibernate.Course;
+import com.bm.jpa_hibernate.Course;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

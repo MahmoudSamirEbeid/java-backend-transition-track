@@ -1,6 +1,6 @@
-package com.in28minutes.jpa_hibernate.course.jdbc;
+package com.bm.jpa_hibernate.course.springjdbc;
 
-import com.in28minutes.jpa_hibernate.Course;
+import com.bm.jpa_hibernate.Course;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class CourseJdbcRepository {
+public class CourseSpringJdbcRepository {
 
     private static final String INSERT_QUERY = """
             insert into course (id, name, author)
@@ -26,7 +26,7 @@ public class CourseJdbcRepository {
             resultSet.getString("author")
     );
 
-    public CourseJdbcRepository(JdbcTemplate jdbcTemplate) {
+    public CourseSpringJdbcRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 

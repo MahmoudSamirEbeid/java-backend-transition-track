@@ -1,6 +1,6 @@
-package com.in28minutes.jpa_hibernate.course.jpa;
+package com.bm.jpa_hibernate.course.jpa;
 
-import com.in28minutes.jpa_hibernate.Course;
+import com.bm.jpa_hibernate.Course;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;

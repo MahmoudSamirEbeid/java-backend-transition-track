@@ -1,6 +1,6 @@
-package com.in28minutes.jpa_hibernate.course.springdatajpa;
+package com.bm.jpa_hibernate.course.springdatajpa;
 
-import com.in28minutes.jpa_hibernate.Course;
+import com.bm.jpa_hibernate.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
