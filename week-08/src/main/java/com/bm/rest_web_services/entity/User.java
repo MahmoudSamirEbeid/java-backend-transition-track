@@ -1,4 +1,4 @@
-package com.bm.rest_web_services.Entity;
+package com.bm.rest_web_services.entity;
 
 
 import io.swagger.v3.oas.annotations.media.Schema;

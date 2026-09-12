@@ -1,8 +1,8 @@
-package com.bm.rest_web_services.Controller;
+package com.bm.rest_web_services.controller;
 
-import com.bm.rest_web_services.DTO.UserResponse;
-import com.bm.rest_web_services.Entity.User;
-import com.bm.rest_web_services.Exception.UserNotFoundException;
+import com.bm.rest_web_services.dto.UserResponse;
+import com.bm.rest_web_services.entity.User;
+import com.bm.rest_web_services.exception.UserNotFoundException;
 import com.bm.rest_web_services.repository.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;

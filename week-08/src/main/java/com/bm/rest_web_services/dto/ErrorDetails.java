@@ -1,4 +1,4 @@
-package com.bm.rest_web_services.DTO;
+package com.bm.rest_web_services.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;

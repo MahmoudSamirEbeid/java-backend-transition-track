@@ -1,6 +1,6 @@
-package com.bm.rest_web_services.Exception;
+package com.bm.rest_web_services.exception;
 
-import com.bm.rest_web_services.DTO.ErrorDetails;
+import com.bm.rest_web_services.dto.ErrorDetails;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.HttpHeaders;

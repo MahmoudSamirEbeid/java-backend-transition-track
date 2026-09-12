@@ -1,8 +1,7 @@
 package com.bm.rest_web_services.repository;
 
-import com.bm.rest_web_services.DTO.PersonV1;
-import com.bm.rest_web_services.Entity.Person;
-import com.bm.rest_web_services.Entity.User;
+import com.bm.rest_web_services.entity.Person;
+import com.bm.rest_web_services.entity.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

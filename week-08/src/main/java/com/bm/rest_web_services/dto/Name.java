@@ -1,4 +1,4 @@
-package com.bm.rest_web_services.DTO;
+package com.bm.rest_web_services.dto;
 
 public record Name(
         String firstName,
