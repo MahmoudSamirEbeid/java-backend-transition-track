@@ -1,8 +1,6 @@
 package com.BM.AOP;
 
 import com.BM.AOP.example.BusinessService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class AopApplication implements CommandLineRunner {
 
-    private Logger logger = LoggerFactory.getLogger(getClass());
     private final BusinessService businessService;
 
     public AopApplication(BusinessService businessService) {
@@ -21,8 +18,8 @@ public class AopApplication implements CommandLineRunner {
         SpringApplication.run(AopApplication.class, args);
     }
 
-	public void run(String... args) {
-        logger.info("BusinessService.getBusinessData() = {}", businessService.getBusinessData());
+    public void run(String... args) {
+        businessService.calculateMax();
     }
 
 

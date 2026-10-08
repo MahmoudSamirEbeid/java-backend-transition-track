@@ -12,7 +12,7 @@ public class BusinessService {
         this.dataService = dataService;
     }
 
-    public int getBusinessData() {
+    public int calculateMax() {
         int[] data = dataService.getData();
         return Arrays.stream(data).max().orElse(0);
     }
